@@ -82,7 +82,7 @@ And user Role field is present in responseBody
 And userName is present in responseBody 
 Examples:
 |userId|
-|5c89aaec-d78f-4a13-abfd-39d76fdd9f6c|
+|a1e64b41-16cd-47f7-989d-a605e740d040|
 
 @User
 Scenario Outline: User Read API returing proper message when requested withinvalid userId
@@ -173,7 +173,7 @@ And consumerType is present when requested with valid userId
 And conscentId is present when requested with valid userId
 Examples:
 |userId|consumerId|objectId|
-|5c89aaec-d78f-4a13-abfd-39d76fdd9f6c|01269878797503692810|do_31240717640512307211963|
+|a1e64b41-16cd-47f7-989d-a605e740d040|01269878797503692810|do_31240717640512307211963|
 
 @User
 Scenario Outline: Verify the conscent read api with invalid userId 
